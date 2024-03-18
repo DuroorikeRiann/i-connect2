@@ -32,7 +32,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Manrope', sans-serif;
 }
 
-
-.padding {
-    padding: 1rem 3.5rem;
+/* general padding for all pages */
+.padding-y {
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
 } 

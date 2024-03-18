@@ -5,7 +5,7 @@ import Button from "../button/Button"
 const NavBar = () => {
   return (
     <>
-        <nav className='padding'>
+        <nav className='padding-y'>
             <a href="/"><img src={Logo} alt="i-connect" /></a>
             <div className='nav-items'>
                 <ul>
