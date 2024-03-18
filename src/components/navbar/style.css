@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 6rem;
+    background-color: var(--white);
+}
+
+nav .nav-items {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+nav .nav-items ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-items ul>li {
+    list-style: none;   
+}
+
+nav .nav-items ul a {
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid transparent;
+    color: var(--brown);
+    font-weight: 600;
+}
+
+nav .nav-items ul a:hover {
+    border-bottom: 2px solid var(--brown);
+    transform: scale(1.05);
+    transition-property: all;
+    transition-duration: 150ms;
+}
+
+nav .nav-items .action-btns {
+    display: flex;
+    gap: 15px;
+}
