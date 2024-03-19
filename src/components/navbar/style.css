@@ -7,6 +7,7 @@ nav {
     background-color: var(--white);
     padding-top: 1rem;
     padding-bottom: 1rem;
+    z-index: 999;
 }
 
 nav img {
