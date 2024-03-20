@@ -13,12 +13,17 @@ const Button = ({ type, text, onClick }) => {
           fontWeight: '600'
         };
         break;
+      case 'tertiary':
+        buttonStyle = {
+          backgroundColor: 'var(--brown)',
+          color: 'white',
+        };
+        break;
       default:
         buttonStyle = {
             backgroundColor: 'var(--wine-red)',
             color: 'white',
             border: '1px solid transparent',
-            
         };
     }
   

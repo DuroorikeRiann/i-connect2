@@ -1,0 +1,28 @@
+footer {
+    background-color: var(--wine-red);
+    /* width: 100%; */
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    gap: 10px;
+}
+
+.logo-items {
+    width: 45%;
+    margin-right: 4rem;
+}
+
+ul {
+    width: 20%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.subscribe {
+    width: 30%;
+}
