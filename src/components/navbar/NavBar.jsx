@@ -1,6 +1,7 @@
 import './style.css'
 import Logo from "../../assets/svg/Logo.svg"
 import Button from "../button/Button"
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
@@ -9,9 +10,9 @@ const NavBar = () => {
             <a href="/"><img src={Logo} alt="i-connect" /></a>
             <div className='nav-items'>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Category</a></li>
-                    <li><a href="/">About Us</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/categories">Category</Link></li>
+                    <li><Link to="/">About Us</Link></li>
                 </ul>
                 <div className='action-btns'>
                     <a href="/"><Button text="Sign Up"/></a>

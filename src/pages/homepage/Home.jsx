@@ -1,7 +1,7 @@
 import './style.css'
 import missionImg from '../../assets/images/eye-img.png'
 import onboardingImg from '../../assets/images/Onboarding-picture.png'
-import { categories, testimonials } from '../../constants'
+import { categoriesHome, testimonials } from '../../constants'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -57,7 +57,7 @@ const Home = () => {
             modules={[EffectCoverflow]}
             className='swiper_container'>
 
-                {categories.map((category, index) => (
+                {categoriesHome.map((category, index) => (
                     <SwiperSlide key={index} >
                     <img src={category.imgUrl} alt={category.imgAlt} />
                     <p>{category.text}</p>

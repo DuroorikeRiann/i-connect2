@@ -29,10 +29,11 @@ const Button = ({ type, text, onClick }) => {
   
     // General styling
     const generalStyle = {
-      padding: '13px 30px',
+      padding: '13px 26px',
       border: 'none',
       borderRadius: '5px',
       cursor: 'pointer',
+      fontSize: '1rem'
     };
   
     return (

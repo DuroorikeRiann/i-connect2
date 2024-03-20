@@ -1,0 +1,37 @@
+.cate-page {
+    
+}
+
+.tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border: 1px solid red;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.tags-wrapper .tags {
+    padding: 9px 15px;
+    color: var(--wine-red);
+    background-color: var(--white);
+    border: 1px solid var(--wine-red);
+    border-radius: 50px;
+    font-size: .8rem;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.tags-wrapper .tags.active {
+    color: var(--white);
+    background-color: var(--wine-red);
+}
+
+.tags-wrapper .tags:hover {
+    color: var(--white);
+    background-color: var(--wine-red);
+}

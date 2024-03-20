@@ -6,7 +6,7 @@ import beautyImg from '../assets/images/beauty.png'
 import personImg from '../assets/images/person.png'
 
 // categories
-export const categories = [
+export const categoriesHome = [
     {
         id: 1,
         imgUrl: beautyImg,
@@ -61,5 +61,49 @@ export const testimonials = [
         testimony: 'We are really impressed with the Real Estate value and paying method in Particular.',
         imgUrl: personImg,
         imgAlt: "client's photo"
+    }
+]
+
+// All categories page
+export const categories = [
+    {
+        id: 1,
+        name: 'fashion'
+    },
+    {
+        id: 2,
+        name: 'food'
+    },
+    {
+        id: 3,
+        name: 'Appliance Repair'
+    },
+    {
+        id: 4,
+        name: 'Cleaning Solution'
+    },
+    {
+        id: 5,
+        name: 'Moving'
+    },
+    {
+        id: 6,
+        name: 'artsain'
+    },
+    {
+        id: 7,
+        name: 'event planner'
+    },
+    {
+        id: 8,
+        name: 'beauty and wellness'
+    },
+    {
+        id: 9,
+        name: 'fashion'
+    },
+    {
+        id: 10,
+        name: 'hair stylist'
     }
 ]
