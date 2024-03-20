@@ -17,37 +17,38 @@ const Footer = () => {
             We believe o live can make your life better.
           </p>
           <div className="social-icon">
-            <img src={instagramLogo} alt="" />
-            <img src={facebookLogo} alt="" />
-            <img src={twitterLogo} alt="" />
-            <img src={linkedinLogo} alt="" />
+            <a href="#" className="icon"><img src={instagramLogo} alt="" /></a>
+            <a href="#" className="icon"><img src={facebookLogo} alt="" /></a>
+            <a href="#" className="icon"><img src={twitterLogo} alt="" /></a>
+            <a href="#" className="icon"><img src={linkedinLogo} alt="" /></a>
           </div>
         </div>
 
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Our Mission</li>
-          <li>Services</li>
-          <li>Testimonials</li>
-          <li>Support</li>
+          <li>Quick Links</li>
+          <li className="footer-li"><a href="#">Home</a></li>
+          <li className="footer-li"><a href="#">About Us</a></li>
+          <li className="footer-li"><a href="#">Our Mission</a></li>
+          <li className="footer-li"><a href="#">Services</a></li>
+          <li className="footer-li"><a href="#">Testimonials</a></li>
+          <li className="footer-li"><a href="#">Support</a></li>
         </ul>
 
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Our Mission</li>
-          <li>Services</li>
-          <li>Testimonials</li>
-          <li>Support</li>
+          <li className="footer-li"><a href="#">Category</a></li>
+          <li className="footer-li"><a href="#">All Categories</a></li>
+          <li className="footer-li"><a href="#">Fashion</a></li>
+          <li className="footer-li"><a href="#">Connect</a></li>
+          <li className="footer-li"><a href="#">Blog</a></li>
+          <li className="footer-li"><a href="#">Contact Us</a></li>
         </ul>
 
         <div className="subscribe">
-          <span>Subscribe</span>
+          <span className="title">Subscribe</span>
           <p>Subscribe to get our newsletter and stay updated with us </p>
           <div className="subscribe-input">
-            <input type="text" />
-            <Button text='Subscribe' type='tertiary' />
+            <input type="text" placeholder="Email address"/>
+            <Button text='Subscribe' type='tertiary' className='sub-btn' />
           </div>
         </div>
 

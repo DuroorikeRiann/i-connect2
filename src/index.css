@@ -7,6 +7,7 @@
     --light-brown: #D8C8B8;
     --wine-red: #961F41;
     --light-pink: #FFEFF4;
+    --text-pink: #F5E9EC;
     --white: #FFFFFF;
 
     /*  */
@@ -19,6 +20,14 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
