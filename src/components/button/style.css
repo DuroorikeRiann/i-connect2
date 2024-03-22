@@ -1,5 +1,9 @@
+button {
+    transition-duration: 250ms;
+}
+
 button:hover {
     transform: scale(1.05);
     transition-property: all;
-    transition-duration: 150ms;
+    transition-duration: 250ms;
 }

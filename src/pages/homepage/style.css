@@ -79,7 +79,7 @@
     gap: 30px;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding: 5rem 0;
   }
 
   .testi-card {
@@ -91,6 +91,14 @@
     justify-content: flex-start;
     border-radius: 10px;
     box-shadow: 1px 2px 5px #60391476, -1px 0px 5px #60391476;
+    transform: scale(1);
+    transition-duration: 150ms;
+  } 
+
+  .testi-card:hover {
+    transform: scale(1.05);
+    transition-property: all;
+    transition-duration: 150ms;
   } 
 
   .testi-card img {

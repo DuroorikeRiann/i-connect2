@@ -40,7 +40,6 @@ nav .nav-items ul a {
 
 nav .nav-items ul a:hover {
     border-bottom: 2px solid var(--brown);
-    transform: scale(1.05);
     transition-property: all;
     transition-duration: 150ms;
 }
